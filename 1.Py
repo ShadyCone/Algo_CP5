@@ -33,7 +33,7 @@ else:
 oats=int(input("Do you have oats?:"))    
 if oats>0:
     print("We have:",oats,"kg of oats")
-    o="oats,"
+    o="oats"
 else:
     o=" "  
 
