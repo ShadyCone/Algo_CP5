@@ -12,7 +12,7 @@ print("We have: " + str(V) + "l in V.")
 
 while True:
     try:
-        area = int(input("What's the volume for V1? : "))
+        area = int(input("What's the area for V1? : "))
     except:
         print('Use numbers!')
         continue
