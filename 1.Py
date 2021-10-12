@@ -1,7 +1,6 @@
 
 print ("CP5") 
-  
-print ("CP5") 
+
 print ("In which container does it fit?") 
 V= int(input("what's the capacity for V? : "))
 print("we have:" ,V, "l in V")
