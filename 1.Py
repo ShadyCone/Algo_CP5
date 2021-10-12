@@ -1,40 +1,23 @@
 
 print ("CP5") 
-print ("how many ingredients do we have ?") 
+  
+print ("CP5") 
+print ("In which container does it fit?") 
+V= int(input("what's the capacity for V? : "))
+print("we have:" ,V, "l in V")
 
-axe=int(input("Do you have axe?:"))
-if axe>0 and axe<=1:
-    print("We have:",axe,"axe")
-    a="we have axe+"
-else:
-    print("We have:",axe,"axes")
-    a="we have axe+"
-    
-water=int(input("Do you have water?:"))
-if water>0:
-    print("We have:",water,"L of water")
-    w="water,"
-else:
-    w=" "
-    
-salt=int(input("Do you have salt?:"))
-if salt>0:
-    print("We have:",salt,"kg of salt") 
-    s="salt,"
-else:
-    s=" "    
-butter=int(input("Do you have butter?:"))    
-if butter>0:
-    print("We have:",butter,"gm of butter")    
-    b="butter,"
-else:
-    b=" "   
-    
-oats=int(input("Do you have oats?:"))    
-if oats>0:
-    print("We have:",oats,"kg of oats")
-    o="oats"
-else:
-    o=" "  
+area= int(input("what's the capacity for v1? : "))
+V1=area*area*area
+print("We have:",V1,"m^3 in V1")
 
-print("for porridge",a,w,s,b,o) 
+R= int(input("what's the radius for V2? : "))
+H= int(input("what's the height for V2? : "))
+V2=3.14*R*R*H
+print("we have:", V2, "cm^3 in V2")
+if((V1>=V) and (V2>=V)):
+        print("both can contain")
+else:
+        if ((V1>V) or (V1==V)):
+            print("V1 can contain")
+        else: 
+               ("V2 can contain")
